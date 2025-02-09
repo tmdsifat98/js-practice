@@ -14,3 +14,8 @@ console.log(mobile.xiaomi.model); //xiaomi er model show korbe
 
 mobile.xiaomi.color = "red";  //nested object er value change kora jabe
 console.log(mobile);
+
+//!kono property delete korte chaile delete.property use korbo
+
+delete mobile.xiaomi.color;  //color property delete hoye jabe
+console.log(mobile);
