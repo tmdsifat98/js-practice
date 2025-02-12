@@ -22,7 +22,7 @@
 const statement = "I am a hard working person";
 let rev = "";
 let words = statement.split(" ");
-for (word of words) {
+for (const word of words) {
   rev = word + " " + rev;
 }
 console.log(rev);
