@@ -57,3 +57,21 @@ for (let i = 0; i < friendsName.length; i++) {
   }
 }
 console.log("ekhane choto namer friend:", lowestValue);
+
+// Write a function to find the longest word in a given string.
+// sample-input: I am learning Programming to become a programmer
+
+function finder(str) {
+  let word = str.split(" ");
+  let longWord = word[0];
+  for (let i = 0; i < word.length; i++) {
+    let sizeStr = word[i];
+    if (longWord.length < sizeStr.length) {
+      longWord = sizeStr;
+    }
+  }
+  return longWord;
+}
+const sentence = "I am learning Programming to become a programmer";
+const output = finder(sentence);
+console.log(output);

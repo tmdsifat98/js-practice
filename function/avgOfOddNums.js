@@ -14,6 +14,6 @@ function oddAvg(numbers) {
     return avg;
   }
 }
-const values = [41, 15, 58, 65, 82, 96, 9];
+const values = [42, 13, 58, 65, 81, 96, 7];
 let output = oddAvg(values);
 console.log(output);
