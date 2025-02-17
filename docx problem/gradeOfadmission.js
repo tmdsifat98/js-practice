@@ -15,11 +15,11 @@ function calculateFinalScore(obj) {
   }
 }
 const qualification = {
-  name: "Rajib",
-  testScore: 50,
-  schoolGrade: 30,
-  isFFamily: false,
-};
+    name: "Rajib",
+    testScore: 50,
+    schoolGrade: 25,
+    isFFamily: false,
+  };
 // calculateFinalScore(qualification);
 let output = calculateFinalScore(qualification);
 console.log(output);
